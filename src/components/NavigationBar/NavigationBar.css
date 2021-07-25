@@ -1,0 +1,16 @@
+.navigation-bar {
+  padding: 1% 2%;
+}
+
+.nav-links {
+  justify-content: end !important;
+}
+
+.my-link:hover {
+  text-decoration: underline;
+  color: rgb(221, 146, 155) !important;
+}
+
+.cv-icon {
+  height: 20px;
+}

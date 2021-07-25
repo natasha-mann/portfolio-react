@@ -1,9 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
+
+import NavigationBar from "./components/NavigationBar";
 
 const App = () => {
   return (
     <div>
-      <h1>My App Goes Here</h1>
+      <NavigationBar />
     </div>
   );
 };
