@@ -45,7 +45,7 @@ const NavigationBar = (props) => {
           className="collapse justify-content-end navbar-collapse"
           id="navbarNavAltMarkup"
         >
-          <div className="navbar-nav">
+          <div className="navbar-nav nav-links">
             <a className="nav-link my-link" href="#about-me">
               About Me
             </a>

@@ -4,3 +4,7 @@
   --darkteal: rgb(73, 171, 168);
   --grey: rgb(234, 237, 240);
 }
+
+* {
+  font-family: "Poppins", sans-serif;
+}

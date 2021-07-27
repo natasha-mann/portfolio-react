@@ -1,18 +1,19 @@
 .navigation-bar {
   padding: 1% 2%;
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
   z-index: 10;
   background-color: transparent;
-  box-shadow: 0px 15px 10px -15px rgb(206, 206, 206);
 }
 
 .navigation-bar.colourChange {
   background-color: #f8f9fa;
-  color: white;
+  box-shadow: 0px 15px 10px -15px rgb(173, 173, 173);
 }
 
 .my-link {
+  font-size: 1.2rem;
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
@@ -22,4 +23,19 @@
 .my-link:hover {
   text-decoration: underline;
   color: rgb(221, 146, 155) !important;
+}
+
+.my-link:focus {
+  text-decoration: underline;
+  color: rgb(221, 146, 155) !important;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background: url(../../images/background-image.jpg);
+  background-size: cover;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
 }

@@ -1,25 +1,31 @@
 /* Introduction section styling*/
-.intro__profile-img {
-  max-height: 50vh;
+
+.intro {
+  padding: 5% 0;
 }
 
-.intro__content {
-  animation: dropIn 0.5s ease-out;
+.profile-img {
+  max-height: 35vh;
+  border-radius: 50%;
 }
 
-.intro__name {
-  color: rgb(221, 146, 155);
+.name-text {
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 1% 0;
 }
 
-.tech-logo {
-  height: 10%;
-  width: 10%;
+.intro-content {
+  justify-content: center;
+  color: black;
+  padding: 1% 0;
 }
 
-.intro-link {
-  color: white;
+.intro-text {
+  font-size: 1.5rem;
+  padding: 1% 0 2% 0;
 }
 
-.intro-link:hover {
-  color: rgb(221, 146, 155);
+.centered-text {
+  justify-content: center;
 }
