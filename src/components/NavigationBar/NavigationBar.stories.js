@@ -2,7 +2,7 @@ import React from "react";
 
 import NavigationBar from "./index";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./NavigationBar.css";
+import "./navigationBar.css";
 
 export default {
   title: "Components/NavigationBar",

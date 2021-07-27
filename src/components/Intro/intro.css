@@ -1,0 +1,25 @@
+/* Introduction section styling*/
+.intro__profile-img {
+  max-height: 50vh;
+}
+
+.intro__content {
+  animation: dropIn 0.5s ease-out;
+}
+
+.intro__name {
+  color: rgb(221, 146, 155);
+}
+
+.tech-logo {
+  height: 10%;
+  width: 10%;
+}
+
+.intro-link {
+  color: white;
+}
+
+.intro-link:hover {
+  color: rgb(221, 146, 155);
+}

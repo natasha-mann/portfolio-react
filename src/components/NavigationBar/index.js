@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import logo from "../../images/favicon-32x32.png";
 
-import "./NavigationBar.css";
+import "./navigationBar.css";
 import "../../App.css";
 
 const NavigationBar = (props) => {
