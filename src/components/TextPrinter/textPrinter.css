@@ -3,3 +3,9 @@
   font-weight: bolder;
   color: rgb(221, 146, 155);
 }
+
+@media screen and (max-width: 480px) {
+  .text-printer {
+    font-size: 1.9rem;
+  }
+}

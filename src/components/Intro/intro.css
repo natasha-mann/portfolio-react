@@ -1,7 +1,7 @@
 /* Introduction section styling*/
 
-.intro {
-  padding: 5% 0;
+.intro-content {
+  margin: 8% 0 0 0;
 }
 
 .profile-img {
@@ -28,4 +28,23 @@
 
 .centered-text {
   justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .intro__profile-img {
+    max-height: 30vh;
+  }
+  .intro {
+    margin-top: 20% !important;
+  }
+
+  .name-text {
+    padding-top: 8%;
+    font-size: 2rem;
+  }
+
+  .centered-text,
+  .intro-text {
+    padding-top: 8%;
+  }
 }
