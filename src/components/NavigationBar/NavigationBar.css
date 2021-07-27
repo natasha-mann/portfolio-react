@@ -2,8 +2,9 @@
   padding: 1% 2%;
 }
 
-.nav-links {
-  justify-content: end !important;
+.my-link {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .my-link:hover {

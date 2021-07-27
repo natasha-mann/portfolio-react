@@ -1,6 +1,3 @@
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-
 import { DocumentDownloadIcon } from "@heroicons/react/outline";
 
 import logo from "../../images/favicon-32x32.png";
@@ -10,32 +7,50 @@ import "../../App.css";
 
 const NavigationBar = (props) => {
   return (
-    <Navbar bg="light" expand="md" className="navigation-bar">
-      <Navbar.Brand href="#home">
-        <img src={logo} alt="logo"></img>
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav>
-          <Nav.Link className="nav-link my-link" href="#about-me">
-            About Me
-          </Nav.Link>
-          <Nav.Link className="nav-link my-link" href="#projects">
-            My Projects
-          </Nav.Link>
-          <Nav.Link className="nav-link my-link" href="#contact">
-            Contact
-          </Nav.Link>
-          <Nav.Link
-            className="nav-link my-link"
-            href="./assets/resume/NatashaMannCV.pdf"
-            download="NatashaMannCV"
-          >
-            <DocumentDownloadIcon className="cv-icon" /> CV
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <nav
+      id="navbar"
+      class="navbar p-3 fixed-top navbar-expand-lg navbar-light bg-light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#intro">
+          <img src={logo} alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse justify-content-end navbar-collapse"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link my-link" href="#about-me">
+              About Me
+            </a>
+            <a class="nav-link my-link" href="#projects">
+              My Projects
+            </a>
+            <a class="nav-link my-link" href="#contact">
+              Contact
+            </a>
+            <a
+              class="nav-link my-link"
+              href="./assets/resume/NatashaMannCV.pdf"
+              download="NatashaMannCV"
+            >
+              <DocumentDownloadIcon className="cv-icon" /> CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 
