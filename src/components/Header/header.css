@@ -1,0 +1,9 @@
+.header {
+  position: relative;
+  height: 100vh;
+  background: url(../../images/background-image.jpg);
+  background-size: cover;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}

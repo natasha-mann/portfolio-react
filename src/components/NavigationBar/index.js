@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import "bootstrap/dist/js/bootstrap";
 
 import logo from "../../images/favicon-32x32.png";
 
@@ -39,10 +41,12 @@ const NavigationBar = (props) => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <GiHamburgerMenu />
+          </span>
         </button>
         <div
-          className="collapse justify-content-end navbar-collapse"
+          className="collapse navbar-collapse dropdown-nav"
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav nav-links">

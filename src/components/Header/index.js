@@ -1,15 +1,8 @@
 import "../../App.css";
+import "./header.css";
 
-import NavigationBar from "../NavigationBar";
-import Intro from "../Intro";
-
-const Header = (props) => {
-  return (
-    <header>
-      <NavigationBar />
-      <Intro />
-    </header>
-  );
+const Header = ({ children }) => {
+  return <header className="header">{children}</header>;
 };
 
 export default Header;
