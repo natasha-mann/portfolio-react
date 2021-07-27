@@ -1,17 +1,24 @@
 .navigation-bar {
   padding: 1% 2%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.navigation-bar.colourChange {
+  background-color: #f8f9fa;
+  color: white;
 }
 
 .my-link {
   display: flex;
   justify-content: flex-end;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .my-link:hover {
   text-decoration: underline;
   color: rgb(221, 146, 155) !important;
-}
-
-.cv-icon {
-  height: 20px;
 }

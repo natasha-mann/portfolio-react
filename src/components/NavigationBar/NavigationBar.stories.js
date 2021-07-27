@@ -10,9 +10,3 @@ export default {
 };
 
 export const NavigationBarStory = (props) => <NavigationBar {...props} />;
-
-NavigationBarStory.args = {
-  /** props here if any see sample below:
-    propName: value
-  */
-};

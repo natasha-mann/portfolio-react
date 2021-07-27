@@ -1,4 +1,4 @@
-import { DocumentDownloadIcon } from "@heroicons/react/outline";
+import { useState } from "react";
 
 import logo from "../../images/favicon-32x32.png";
 
@@ -6,17 +6,32 @@ import "./NavigationBar.css";
 import "../../App.css";
 
 const NavigationBar = (props) => {
+  const [colourChange, setColourChange] = useState(false);
+
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColourChange(true);
+    } else {
+      setColourChange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
+
   return (
     <nav
       id="navbar"
-      class="navbar p-3 fixed-top navbar-expand-lg navbar-light bg-light"
+      className={
+        colourChange
+          ? "navbar navbar-expand-lg navigation-bar colourChange"
+          : "navbar navbar-expand-lg navigation-bar"
+      }
     >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#intro">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#intro">
           <img src={logo} alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -24,28 +39,28 @@ const NavigationBar = (props) => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse justify-content-end navbar-collapse"
+          className="collapse justify-content-end navbar-collapse"
           id="navbarNavAltMarkup"
         >
-          <div class="navbar-nav">
-            <a class="nav-link my-link" href="#about-me">
+          <div className="navbar-nav">
+            <a className="nav-link my-link" href="#about-me">
               About Me
             </a>
-            <a class="nav-link my-link" href="#projects">
+            <a className="nav-link my-link" href="#projects">
               My Projects
             </a>
-            <a class="nav-link my-link" href="#contact">
+            <a className="nav-link my-link" href="#contact">
               Contact
             </a>
             <a
-              class="nav-link my-link"
+              className="nav-link my-link"
               href="./assets/resume/NatashaMannCV.pdf"
               download="NatashaMannCV"
             >
-              <DocumentDownloadIcon className="cv-icon" /> CV
+              <i className="fas fa-file-download"></i> CV
             </a>
           </div>
         </div>

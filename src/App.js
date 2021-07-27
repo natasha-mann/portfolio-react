@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div>
       <NavigationBar />
+      <div style={{ overflowY: "scroll", height: "800px" }}></div>
     </div>
   );
 };
