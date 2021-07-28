@@ -34,8 +34,8 @@
   .intro__profile-img {
     max-height: 30vh;
   }
-  .intro {
-    margin-top: 20% !important;
+  .intro-content {
+    padding-top: 20% !important;
   }
 
   .name-text {

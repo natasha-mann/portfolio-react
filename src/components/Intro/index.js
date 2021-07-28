@@ -1,13 +1,14 @@
 import "./intro.css";
-import "../../App.css";
+
 import photo from "../../images/profile-image-salsa.jpg";
 
 import TextPrinter from "../TextPrinter";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import FlexContainer from "../FlexContainer";
 
-const Intro = (props) => {
+const Intro = () => {
   return (
-    <section className="container-fluid intro">
+    <FlexContainer position="center" id="home">
       <div className="intro-content">
         <div>
           <img className="profile-img" src={photo} alt="Natasha Mann" />
@@ -21,7 +22,7 @@ const Intro = (props) => {
           <FaRegArrowAltCircleDown size="2rem" />
         </div>
       </div>
-    </section>
+    </FlexContainer>
   );
 };
 

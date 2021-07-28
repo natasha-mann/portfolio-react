@@ -29,7 +29,7 @@ const NavigationBar = (props) => {
       }
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#intro">
+        <a className="navbar-brand" href="/">
           <img src={logo} alt="logo" />
         </a>
         <button
