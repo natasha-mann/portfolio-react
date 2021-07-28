@@ -7,6 +7,7 @@ import NavigationBar from "./components/NavigationBar";
 import Intro from "./components/Intro";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       </Header>
       <AboutMe />
       <Projects />
+      <Contact />
     </div>
   );
 };
