@@ -1,6 +1,7 @@
 import "./AboutMe.css";
 import Title from "../Title";
 import FlexContainer from "../FlexContainer";
+import IconLink from "../IconLink";
 
 import {
   FaGithubSquare,
@@ -10,7 +11,7 @@ import {
   FaHtml5,
   FaCss3Alt,
 } from "react-icons/fa";
-import { SiGraphql } from "react-icons/si";
+import { SiGraphql, SiJavascript } from "react-icons/si";
 
 import photo from "../../images/natasha.jpeg";
 
@@ -24,8 +25,14 @@ const AboutMe = (props) => {
           <div className="about-content">
             <h4 className="about-text about-title">Hi, I'm Natasha.</h4>
             <div className="contact-icons">
-              <FaLinkedin size="2rem" className="contact-logo" />
-              <FaGithubSquare size="2rem" className="contact-logo" />
+              <IconLink
+                logo={<FaLinkedin size="2rem" className="contact-logo" />}
+                link="https://www.linkedin.com/in/natashamann2896/"
+              />
+              <IconLink
+                logo={<FaGithubSquare size="2rem" className="contact-logo" />}
+                link="http://www.github.com/natasha-mann"
+              />
             </div>
             <p className="about-text">
               I'm a full stack web developer working mainly with a MERN stack,
@@ -37,11 +44,30 @@ const AboutMe = (props) => {
               learning foreign languages and travelling as much as possible!
             </p>
             <div className="skill-icons">
-              <FaReact size="3rem" className="skill-logo" />
-              <FaNodeJs size="3rem" className="skill-logo" />
-              <SiGraphql size="3rem" className="skill-logo" />
-              <FaHtml5 size="3rem" className="skill-logo" />
-              <FaCss3Alt size="3rem" className="skill-logo" />
+              <IconLink
+                logo={<FaReact size="3rem" className="skill-logo" />}
+                link="https://reactjs.org/"
+              />
+              <IconLink
+                logo={<FaNodeJs size="3rem" className="skill-logo" />}
+                link="https://nodejs.org/en/"
+              />
+              <IconLink
+                logo={<SiGraphql size="3rem" className="skill-logo" />}
+                link="https://graphql.org/"
+              />
+              <IconLink
+                logo={<SiJavascript size="3rem" className="skill-logo" />}
+                link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              />
+              <IconLink
+                logo={<FaHtml5 size="3rem" className="skill-logo" />}
+                link="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              />
+              <IconLink
+                logo={<FaCss3Alt size="3rem" className="skill-logo" />}
+                link="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              />
             </div>
           </div>
         </div>

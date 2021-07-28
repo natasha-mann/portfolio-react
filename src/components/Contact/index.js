@@ -7,7 +7,7 @@ const Contact = (props) => {
     <FlexContainer position="center" id="contact">
       <div className="section-container">
         <Title text="CONTACT ME" />
-        <div className="project-row"></div>
+        <div className="contact-row"></div>
       </div>
     </FlexContainer>
   );
