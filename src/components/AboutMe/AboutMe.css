@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.about-content {
+  margin-left: 1rem;
+}
+
 .about-row {
   display: flex;
   flex-direction: column;
@@ -27,6 +31,21 @@
 .contact-logo,
 .skill-logo {
   margin-right: 1rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .section-container {
+    width: 70%;
+  }
+
+  .about-title {
+    margin-bottom: 2rem;
+  }
+
+  .contact-icons,
+  .skill-icons {
+    padding-bottom: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
