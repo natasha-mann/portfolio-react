@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 const QUERY = gql`
   query reposQuery {
-    repos {
+    repos(username: "natasha-mann") {
       name
       description
       gitHubUrl
