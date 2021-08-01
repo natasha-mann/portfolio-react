@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header>
         <NavigationBar />
         <Intro />
@@ -19,7 +19,7 @@ const App = () => {
       <AboutMe />
       <Projects />
       <Contact />
-    </div>
+    </>
   );
 };
 
