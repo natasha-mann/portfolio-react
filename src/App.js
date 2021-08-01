@@ -8,6 +8,7 @@ import Intro from "./components/Intro";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 };
