@@ -34,7 +34,7 @@ const ProjectCard = ({ repo }) => {
                         project-btn
                         mx-1
                       "
-            href={repo.svn_url}
+            href={repo.gitHubUrl}
             role="button"
             target="_blank"
             rel="noreferrer"

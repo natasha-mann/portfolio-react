@@ -33,9 +33,3 @@
   text-decoration: underline;
   color: rgb(221, 146, 155) !important;
 }
-
-@media (max-width: 767px) {
-  .navbar-collapse {
-    background-color: #e1ebec;
-  }
-}

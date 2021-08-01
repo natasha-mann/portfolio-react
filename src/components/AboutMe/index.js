@@ -17,7 +17,7 @@ import photo from "../../images/natasha.jpeg";
 
 const AboutMe = (props) => {
   return (
-    <FlexContainer position="center" id="about-me">
+    <FlexContainer position="center" padding="true" colour="grey" id="about-me">
       <div className="section-container">
         <Title text="ABOUT ME" />
         <div className="about-row">

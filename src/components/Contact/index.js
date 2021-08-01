@@ -4,7 +4,7 @@ import FlexContainer from "../FlexContainer";
 
 const Contact = (props) => {
   return (
-    <FlexContainer position="center" id="contact">
+    <FlexContainer position="center" padding="true" colour="grey" id="contact">
       <div className="section-container">
         <Title text="CONTACT ME" />
         <div className="contact-row"></div>

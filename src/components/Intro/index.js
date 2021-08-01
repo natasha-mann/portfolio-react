@@ -18,9 +18,9 @@ const Intro = () => {
           <div className="intro-text">Birmingham, UK</div>
         </div>
 
-        <div className="centered-text">
+        <a className="arrow-icon" href="#about-me">
           <FaRegArrowAltCircleDown size="2rem" />
-        </div>
+        </a>
       </div>
     </FlexContainer>
   );

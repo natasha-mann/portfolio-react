@@ -26,8 +26,13 @@
   padding: 1% 0 2% 0;
 }
 
-.centered-text {
+.arrow-icon {
   justify-content: center;
+  color: black;
+}
+
+.arrow-icon:hover {
+  color: rgb(221, 146, 155);
 }
 
 @media screen and (max-width: 480px) {

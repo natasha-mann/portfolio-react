@@ -27,7 +27,7 @@ const Projects = () => {
   // }
 
   return (
-    <FlexContainer position="center" id="projects">
+    <FlexContainer position="center" padding="true" id="projects">
       <div className="project-section">
         <Title text="PROJECTS" />
         <Row sm={8} md={4} xl={4} className="g-0 justify-content-center">

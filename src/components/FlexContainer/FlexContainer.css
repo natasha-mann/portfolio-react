@@ -2,9 +2,22 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-top: 1.5rem;
+}
+
+.flex-container--padded {
+  padding-top: 2rem;
 }
 
 .flex-container--centered {
   justify-content: center;
+}
+
+.flex-container--grey {
+  background-color: #f7f7f7;
+}
+
+@media screen and (min-width: 1000px) {
+  .flex-container {
+    padding-bottom: 8rem;
+  }
 }
