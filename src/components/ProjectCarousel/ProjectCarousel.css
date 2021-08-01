@@ -1,0 +1,21 @@
+.main-project {
+  height: 63vh !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-project {
+    height: 50vh !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-project {
+    height: 40vh !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-project {
+    height: 38vh !important;
+  }
+}

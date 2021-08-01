@@ -1,14 +1,10 @@
 .project-card {
-  /* width: 23vw; */
-  /* height: 70vh; */
   text-align: center;
   margin: 1rem;
 }
 
 .project-image {
   height: 60%;
-}
-.card-content {
 }
 
 .card-title {
