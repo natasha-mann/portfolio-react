@@ -18,7 +18,7 @@ const Footer = () => {
         />
         <IconLink
           logo={<FaInstagram size="2rem" className="contact-logo" />}
-          link="http://www.github.com/natasha-mann"
+          link="http://www.instagram.com/salsatash"
         />
       </div>
     </footer>

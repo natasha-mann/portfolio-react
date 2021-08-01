@@ -1,0 +1,16 @@
+.contact-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.form-btn {
+  background-color: rgb(82, 181, 178);
+  border-color: rgb(82, 181, 178);
+}
+
+.form-btn:hover {
+  background-color: rgb(73, 171, 168);
+  border-color: rgb(73, 171, 168);
+}

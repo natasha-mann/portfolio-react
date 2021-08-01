@@ -6,6 +6,7 @@ import IconLink from "../IconLink";
 import {
   FaGithubSquare,
   FaLinkedin,
+  FaInstagram,
   FaReact,
   FaNodeJs,
   FaHtml5,
@@ -32,6 +33,10 @@ const AboutMe = (props) => {
               <IconLink
                 logo={<FaGithubSquare size="2rem" className="contact-logo" />}
                 link="http://www.github.com/natasha-mann"
+              />
+              <IconLink
+                logo={<FaInstagram size="2rem" className="contact-logo" />}
+                link="http://www.instagram.com/salsatash"
               />
             </div>
             <p className="about-text">
