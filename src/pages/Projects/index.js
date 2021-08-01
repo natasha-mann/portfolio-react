@@ -3,11 +3,11 @@ import { Row } from "react-bootstrap";
 import { v4 as uuidv4 } from "uuid";
 
 import "./Projects.css";
-import Title from "../Title";
-import FlexContainer from "../FlexContainer";
-import ProjectCard from "../ProjectCard";
+import Title from "../../components/Title";
+import FlexContainer from "../../components/FlexContainer";
+import ProjectCard from "../../components/ProjectCard";
 import QUERY from "../../queries";
-import ProjectCarousel from "../ProjectCarousel";
+import ProjectCarousel from "../../components/ProjectCarousel";
 
 const Projects = () => {
   const { loading, error, data } = useQuery(QUERY);

@@ -4,10 +4,10 @@ import "./App.css";
 
 import Header from "./components/Header";
 import NavigationBar from "./components/NavigationBar";
-import Intro from "./components/Intro";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Intro from "./pages/Intro";
+import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 const App = () => {

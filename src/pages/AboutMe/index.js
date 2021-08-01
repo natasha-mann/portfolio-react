@@ -1,7 +1,7 @@
 import "./AboutMe.css";
-import Title from "../Title";
-import FlexContainer from "../FlexContainer";
-import IconLink from "../IconLink";
+import Title from "../../components/Title";
+import FlexContainer from "../../components/FlexContainer";
+import IconLink from "../../components/IconLink";
 
 import {
   FaGithubSquare,

@@ -2,9 +2,9 @@ import "./intro.css";
 
 import photo from "../../images/profile-image-salsa.jpg";
 
-import TextPrinter from "../TextPrinter";
+import TextPrinter from "../../components/TextPrinter";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
-import FlexContainer from "../FlexContainer";
+import FlexContainer from "../../components/FlexContainer";
 
 const Intro = () => {
   return (

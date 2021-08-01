@@ -1,8 +1,8 @@
 import "./Contact.css";
-import Title from "../Title";
-import FlexContainer from "../FlexContainer";
+import Title from "../../components/Title";
+import FlexContainer from "../../components/FlexContainer";
 
-import ContactForm from "../ContactForm";
+import ContactForm from "../../components/ContactForm";
 
 const Contact = (props) => {
   return (
