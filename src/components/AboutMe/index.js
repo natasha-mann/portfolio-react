@@ -35,9 +35,10 @@ const AboutMe = (props) => {
               />
             </div>
             <p className="about-text">
-              I'm a full stack web developer working mainly with a MERN stack,
-              but also have experience with other frameworks such as GraphQl,
-              MySQL, and of course writing in Vanilla JavaScript.
+              I'm a full stack web developer, confident in working with a MERN
+              stack. I also have experience using other frameworks such as
+              GraphQl and jQuery, relational databases with MySQL, and of course
+              writing in Vanilla JavaScript.
             </p>
             <p className="about-text">
               When I'm not coding, I spend most of my time dancing salsa,
