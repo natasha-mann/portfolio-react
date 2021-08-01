@@ -11,6 +11,7 @@ Click [here](https://natasha-mann.github.io/portfolio-react/) to view the projec
 - [About the Project](#about-the-project)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
+- [Questions](#questions)
 - [Screenshots](#screenshots)
 
 ## About the Project
@@ -37,6 +38,10 @@ npm i
 
 npm run start
 ```
+
+## Questions
+
+If you have any questions about this application, please contact me by [email](mailto:natasha.s.mann@gmail.com).
 
 ## Screenshots
 
