@@ -1,5 +1,6 @@
 import { useQuery } from "@apollo/client";
 import { Row } from "react-bootstrap";
+import { v4 as uuidv4 } from "uuid";
 
 import "./Projects.css";
 import Title from "../Title";
@@ -18,7 +19,7 @@ const Projects = () => {
         <Row sm={8} md={4} xl={4} className="g-0 justify-content-center">
           {data &&
             data.repos.map((repo) => {
-              return <ProjectCard repo={repo} />;
+              return <ProjectCard key={uuidv4()} repo={repo} />;
             })}
 
           {loading && (

@@ -5,7 +5,7 @@ import IconLink from "../IconLink";
 
 const Footer = () => {
   return (
-    <footer class="footer border-top py-3 text-center">
+    <footer className="footer border-top py-3 text-center">
       <div>Designed and Built by Natasha Mann</div>
       <div className="contact-icons mx-auto">
         <IconLink

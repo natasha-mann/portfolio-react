@@ -1,0 +1,22 @@
+@media screen and (max-width: 1000px) {
+  .contact-div {
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .map-div {
+    width: 90% !important;
+  }
+
+  .section-container {
+    padding-bottom: 5rem;
+  }
+}

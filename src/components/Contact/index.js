@@ -1,6 +1,7 @@
 import "./Contact.css";
 import Title from "../Title";
 import FlexContainer from "../FlexContainer";
+
 import ContactForm from "../ContactForm";
 
 const Contact = (props) => {
@@ -9,7 +10,7 @@ const Contact = (props) => {
       <div className="section-container">
         <Title text="CONTACT ME" />
         <div className="contact-row">
-          <div className="d-flex gap-5">
+          <div className="d-flex gap-5 contact-div">
             <div className="map-div w-50">
               <iframe
                 width="100%"

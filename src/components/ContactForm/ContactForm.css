@@ -3,6 +3,7 @@
   padding: 2rem;
   border-radius: 5%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  width: 50%;
 }
 
 .form-btn {
@@ -13,4 +14,10 @@
 .form-btn:hover {
   background-color: rgb(73, 171, 168);
   border-color: rgb(73, 171, 168);
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 90%;
+  }
 }

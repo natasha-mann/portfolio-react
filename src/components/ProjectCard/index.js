@@ -6,7 +6,7 @@ import transformTitle from "../../utils/transformTitle";
 const ProjectCard = ({ repo }) => {
   const title = transformTitle(repo.name);
   return (
-    <Card className="project-card" key={repo.name}>
+    <Card className="project-card">
       <a
         href={repo.homepage}
         role="button"

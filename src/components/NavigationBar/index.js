@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import "bootstrap/dist/js/bootstrap";
+import { GrDocumentDownload } from "react-icons/gr";
 
 import logo from "../../images/favicon-32x32.png";
+import cv from "../../images/NatashaMannCV.pdf";
 
 import "./navigationBar.css";
 import "../../App.css";
@@ -59,12 +60,8 @@ const NavigationBar = (props) => {
             <a className="nav-link my-link" href="#contact">
               Contact
             </a>
-            <a
-              className="nav-link my-link"
-              href="./assets/resume/NatashaMannCV.pdf"
-              download="NatashaMannCV"
-            >
-              <i className="fas fa-file-download"></i> CV
+            <a className="nav-link my-link" href={cv} download="NatashaMannCV">
+              CV <GrDocumentDownload size="1.5rem" className="ps-2 my-link" />
             </a>
           </div>
         </div>

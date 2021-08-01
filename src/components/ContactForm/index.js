@@ -8,7 +8,7 @@ const ContactForm = () => {
     <Form
       action="https://formspree.io/f/xgernybk"
       method="POST"
-      className="w-50 contact-form text-center"
+      className="contact-form text-center"
     >
       <h4 className="text-center pb-3">GET IN TOUCH</h4>
       <Form.Group className="mb-3" controlId="email">
