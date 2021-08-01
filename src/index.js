@@ -7,7 +7,7 @@ import App from "./App";
 import "./index.css";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/",
+  uri: "https://thawing-hollows-71748.herokuapp.com/",
   cache: new InMemoryCache(),
 });
 
