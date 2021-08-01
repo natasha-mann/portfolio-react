@@ -3,10 +3,10 @@ import Card from "react-bootstrap/card";
 import "./ProjectCard.css";
 import transformTitle from "../../utils/transformTitle";
 
-const ProjectCard = ({ repo }) => {
+const ProjectCard = ({ repo }, key) => {
   const title = transformTitle(repo.name);
   return (
-    <Card className="project-card">
+    <Card key={key} className="project-card">
       <a
         href={repo.homepage}
         role="button"
