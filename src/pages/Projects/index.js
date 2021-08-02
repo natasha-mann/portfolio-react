@@ -12,15 +12,23 @@ import ProjectCarousel from "../../components/ProjectCarousel";
 const Projects = () => {
   const { loading, error, data } = useQuery(QUERY);
 
+  const getProjectData = () => {
+    if (data) {
+      const projectData = data.repos.filter((project) => {
+        return project.name !== "portfolio-react";
+      });
+      return projectData.map((repo) => {
+        return <ProjectCard key={uuidv4()} repo={repo} />;
+      });
+    }
+  };
+
   return (
     <FlexContainer position="center" padding="true" id="projects">
       <div className="project-section">
         <Title text="PROJECTS" />
         <Row sm={8} md={4} xl={4} className="g-0 justify-content-center">
-          {data &&
-            data.repos.map((repo) => {
-              return <ProjectCard key={uuidv4()} repo={repo} />;
-            })}
+          {data && getProjectData()}
 
           {loading && (
             <div className="pb-5 text-center">
