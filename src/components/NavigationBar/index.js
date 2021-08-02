@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrDocumentDownload } from "react-icons/gr";
+import "bootstrap/dist/js/bootstrap";
 
 import logo from "../../images/favicon-32x32.png";
 import cv from "../../images/NatashaMannCV.pdf";
