@@ -10,7 +10,14 @@ import QUERY from "../../queries";
 import ProjectCarousel from "../../components/ProjectCarousel";
 
 const Projects = () => {
-  const { loading, error, data } = useQuery(QUERY);
+  const { loading, error, data } = useQuery(QUERY, {
+    variables: {
+      username: "natasha-mann",
+      sortBy: "updated",
+      number: 10,
+      page: 1,
+    },
+  });
 
   const getProjectData = () => {
     if (data) {

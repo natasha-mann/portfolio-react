@@ -1,8 +1,13 @@
 import { gql } from "@apollo/client";
 
 const QUERY = gql`
-  query reposQuery {
-    repos(username: "natasha-mann", sortBy: "updated", number: 10, page: 1) {
+  query reposQuery(
+    $username: String!
+    $sortBy: String!
+    $number: Int!
+    $page: Int!
+  ) {
+    repos(username: $username, sortBy: $sortBy, number: $number, page: $page) {
       name
       description
       gitHubUrl
