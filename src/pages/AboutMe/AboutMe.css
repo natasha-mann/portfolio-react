@@ -35,15 +35,19 @@
 
 @media screen and (min-width: 1400px) {
   .section-container {
-    width: 70%;
+    width: 80%;
   }
 
   .about-row {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .about-title {
     margin-bottom: 2rem;
+  }
+
+  .about-content {
+    margin-left: 2rem;
   }
 
   .contact-icons,
@@ -58,7 +62,8 @@
   }
 
   .about-img {
-    width: 35%;
+    width: 50%;
+    height: 60vh;
   }
 
   .about-text {

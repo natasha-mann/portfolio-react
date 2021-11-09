@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap";
 import logo from "../../images/favicon-32x32.png";
 import cv from "../../images/NatashaMannCV.pdf";
 
-import "./navigationBar.css";
+import "./NavigationBar.css";
 import "../../App.css";
 
 const NavigationBar = (props) => {
