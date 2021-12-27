@@ -6,4 +6,5 @@
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  background-attachment: fixed;
 }
