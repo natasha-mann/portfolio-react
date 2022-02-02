@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="contact-icons mx-auto">
         <IconLink
           logo={<FaLinkedin size="2rem" className="contact-logo" />}
-          link="https://www.linkedin.com/in/natashamann2896/"
+          link="http://www.linkedin.com/in/natasha-mann26"
         />
         <IconLink
           logo={<FaGithubSquare size="2rem" className="contact-logo" />}
